@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <h1 className="text-2xl font-bold">
-          <Link href="/">Stefan's Portfolio</Link>
+          <Link href="/">Stefan Solves</Link>
         </h1>
 
         {/* Centered Navigation Links */}
