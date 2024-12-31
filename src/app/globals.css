@@ -30,3 +30,88 @@ body {
     transform: scale(1.25); /* 125% zoom on hover */
   }
 
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px; /* Make the header thicker */
+    display: flex;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #888; /* Subtle hover effect for links */
+  }
+  
+  .social-icons a {
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #888; /* Subtle hover effect for icons */
+  }
+  
+
+  header {
+    height: 80px; /* Adjust header thickness */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav a {
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #888; /* Subtle hover effect for links */
+  }
+  
+  .social-icons a {
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #888; /* Subtle hover effect for icons */
+  }
+
+  
