@@ -19,3 +19,14 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+  .zoom-container {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+  }
+
+  .zoom-container:hover {
+    transform: scale(1.25); /* 125% zoom on hover */
+  }
+
