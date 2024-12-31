@@ -10,7 +10,7 @@ export default function Header() {
         <h1 className="text-2xl font-bold">
           <Link href="/" className="flex items-center">
             <Image
-              src="/img/Stefan Solves.svg" // Correct path to your logo
+              src="/img/Stefan Solves.svg" // Image path
               alt="Stefan Solves Logo"
               width={160} // Adjust width as needed
               height={40} // Adjust height as needed
