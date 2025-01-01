@@ -1,7 +1,9 @@
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+import Footer from "./Footer";
 
 const Contact = () => {
   return (
+    <div className="min-h-screen flex flex-col">
     <section id="contact" className="w-full bg-gray-100 py-16">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-6">Contact Me</h2>
@@ -28,6 +30,8 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    <Footer />
+  </div>
   );
 };
 

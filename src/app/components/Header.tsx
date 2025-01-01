@@ -21,19 +21,19 @@ export default function Header() {
 
         {/* Centered Navigation Links */}
         <nav className="absolute left-1/2 transform -translate-x-1/2 flex space-x-8 text-lg">
-          <Link href="#projects" className="hover:text-gray-400">
+          <Link href="/socialmedia" className="hover:text-gray-400">
             Social Media
           </Link>
-          <Link href="#projects" className="hover:text-gray-400">
+          <Link href="/projects" className="hover:text-gray-400">
             Projects
           </Link>
-          <Link href="#cv" className="hover:text-gray-400">
+          <Link href="/journey" className="hover:text-gray-400">
             Journey
           </Link>
-          <Link href="#blog" className="hover:text-gray-400">
+          <Link href="/blog" className="hover:text-gray-400">
             Blog
           </Link>
-          <Link href="#contact" className="hover:text-gray-400">
+          <Link href="/contact" className="hover:text-gray-400">
             Contact
           </Link>
         </nav>

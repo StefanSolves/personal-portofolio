@@ -6,6 +6,8 @@ import Projects from "./components/Projects";
 import Journey from "./components/Journey";
 import Blog from "./components/Blog";
 import SocialMedia from "./components/SocialMedia";
+import Link from 'next/link';
+
 
 export default function Home() {
   return (

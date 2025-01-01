@@ -1,3 +1,17 @@
+## Welcome to My Personal Website
+This is a work-in-progress project bootstrapped with Next.js using create-next-app.
+
+## Purpose
+This website is intended to bring together all my professional and personal digital presence into one place. You'll be able to see a comprehensive view of my work across various platforms, such as:
+
+My CV and resume.
+Links to my GitHub repositories.
+My LinkedIn profile and other networking platforms.
+Videos showcasing projects and experiences.
+## A blog for sharing thoughts and insights on topics related to tech, coding, and personal growth.
+## It's a central hub that consolidates everything you can find about me across the web.
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

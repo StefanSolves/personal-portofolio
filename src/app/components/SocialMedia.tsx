@@ -1,7 +1,9 @@
 import { FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
+import Footer from './Footer'
 
 const SocialMedia = () => {
   return (
+  <div className="min-h-screen flex flex-col">
     <section id="social-media" className="w-full py-16 bg-gray-100">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-6">Connect with Me</h2>
@@ -22,6 +24,8 @@ const SocialMedia = () => {
         </div>
       </div>
     </section>
+    <Footer/>
+  </div>
   );
 };
 
