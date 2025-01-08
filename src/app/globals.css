@@ -114,4 +114,27 @@ body {
     color: #888; /* Subtle hover effect for icons */
   }
 
-  
+  /* Gradient instagram */
+.instagram-gradient-text {
+  background: linear-gradient(90deg, #f58529, #dd2a7b, #8134af, #515bd4, #4c69f2);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text; /* For Safari */
+}
+
+  /* TikTok Gradient Text */
+.tiktok-gradient-text {
+  background: linear-gradient(90deg, #000000, #FE2C55, #25F4EE, #FFFFFF);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text; /* For Safari */
+}
+
+/* YouTube Color Text */
+.youtube-gradient-text {
+  background: linear-gradient(90deg, #FF0000, #C4302B);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text; /* For Safari */
+}
+
