@@ -1,11 +1,10 @@
 import Link from "next/link";
 import Image from "next/image"; // Import Image component
-import { FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa"; // Social media icons
+import { FaInstagram, FaLinkedin, FaTiktok, FaGithub } from "react-icons/fa"; // Social media icons
 
 export default function Header() {
   return (
-    <header className="bg-black text-white py-6 px-8 shadow-md fixed w-full z-50">
-      <div className="container mx-auto flex items-center justify-between">
+<header className="bg-[#003B49] text-white py-6 px-8 shadow-md fixed w-full z-50">      <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <h1 className="text-2xl font-bold">
           <Link href="/" className="flex items-center">
@@ -48,6 +47,9 @@ export default function Header() {
           </a>
           <a href="https://www.tiktok.com/@stefan.solves" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
             <FaTiktok size={24} className="hover:text-gray-400" />
+          </a>
+          <a href="https://://github.com/StefanCDev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <FaGithub size={24} className="hover:text-gray-400" />
           </a>
         </div>
       </div>

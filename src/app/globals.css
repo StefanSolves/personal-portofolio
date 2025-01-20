@@ -18,6 +18,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 
@@ -51,6 +52,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
   }
   
   
@@ -61,6 +63,7 @@ body {
     right: 0;
     height: 100px; /* Make the header thicker */
     display: flex;
+    z-index: 0;
     align-items: center;
   }
   
@@ -138,3 +141,27 @@ body {
   -webkit-background-clip: text; /* For Safari */
 }
 
+/* styles.css */
+.custom-divider {
+  border-top: 1px solid #003B49;
+  margin: 8px 0;
+}
+
+.audio-player {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.audio-controls button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.audio-controls button:hover {
+  background-color: #444;
+}

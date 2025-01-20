@@ -11,8 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'midnight-blue': '#003B49',
       },
     },
   },
   plugins: [],
 } satisfies Config;
+
