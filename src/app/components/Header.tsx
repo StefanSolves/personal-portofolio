@@ -48,7 +48,7 @@ export default function Header() {
           <a href="https://www.tiktok.com/@stefan.solves" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
             <FaTiktok size={24} className="hover:text-gray-400" />
           </a>
-          <a href="https://://github.com/StefanCDev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <a href="https://github.com/StefanCDev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <FaGithub size={24} className="hover:text-gray-400" />
           </a>
         </div>

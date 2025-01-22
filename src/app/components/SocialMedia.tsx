@@ -1,5 +1,6 @@
 import { FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
 import Footer from './Footer'
+import InstagramPosts  from "./ui/InstagramPosts";
 
 const SocialMedia = () => {
   return (
@@ -31,16 +32,13 @@ const SocialMedia = () => {
             <span className="instagram-gradient-text">Instagram</span>
           </h3>
           <div className="flex justify-center space-x-6">
-            {/* Add content for Instagram */}
-            <div className="w-32 h-32 bg-blue-500 rounded-lg flex justify-center items-center text-white">
-              <p>Instagram Content 1</p>
-            </div>
-            <div className="w-32 h-32 bg-blue-500 rounded-lg flex justify-center items-center text-white">
+            <InstagramPosts />
+            {/* <div className="w-32 h-32 bg-blue-500 rounded-lg flex justify-center items-center text-white">
               <p>Instagram Content 2</p>
-            </div>
-            <div className="w-32 h-32 bg-blue-500 rounded-lg flex justify-center items-center text-white">
+            </div> */}
+            {/* <div className="w-32 h-32 bg-blue-500 rounded-lg flex justify-center items-center text-white">
               <p>Instagram Content 3</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

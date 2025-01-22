@@ -1,4 +1,5 @@
 import Footer from "./Footer"; // Import the Footer component
+// import AudioPlayer from "./AudioPlayer";
 
 const Blog = () => {
   return (
@@ -25,8 +26,7 @@ const Blog = () => {
             >
               <h3 className="text-xl font-semibold">The Future of Web Development</h3>
               <p className="mt-2 text-gray-600">
-                An in-depth look at the latest trends and emerging technologies in web
-                development.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia doloremque ex adipisci voluptate ab vel culpa perspiciatis rerum? Qui, ab obcaecati quam alias unde consequatur in deserunt. Optio, quas aliquam!
               </p>
               <a href="#article1" className="text-blue-500 mt-4 inline-block">
                 Read more
@@ -94,6 +94,7 @@ const Blog = () => {
 
       {/* Footer Section */}
       <Footer />
+      {/* <AudioPlayer /> */}
     </div>
   );
 };

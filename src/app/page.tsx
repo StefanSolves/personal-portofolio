@@ -8,6 +8,7 @@ import Blog from "./components/Blog";
 import SocialMedia from "./components/SocialMedia";
 import Link from 'next/link';
 import AudioPlayer from "./components/ui/AudioPlayer";
+import InstagramPosts  from "./components/ui/InstagramPosts";
 
 export default function Home() {
   return (
