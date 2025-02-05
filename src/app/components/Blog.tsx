@@ -5,9 +5,9 @@ const Blog = () => {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Blog Section */}
-      <section id="blog" className="w-full py-16 pt-[96px] flex-grow">
+      <section id="blog" className="w-full py-16 pt-[100px] flex-grow m-0 p-0">
         {/* Space for future text with a horizontal line */}
-        <div className="mb-12 text-center py-12 bg-gray-50">
+        <div className="mb-12 text-center py-24 bg-gray-50">
           <p className="text-lg text-gray-700 mb-6">
             {/* Placeholder text for future content */}
             This is a place where additional information or description can be added later.
@@ -35,6 +35,102 @@ const Blog = () => {
 
             {/* Blog Post Item 2 */}
             <div
+              id="article2"
+              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            >
+              <h3 className="text-xl font-semibold">
+                Cybersecurity Best Practices for 2024
+              </h3>
+              <p className="mt-2 text-gray-600">
+                Learn about the most effective security measures to protect your websites
+                and applications.
+              </p>
+              <a href="#article2" className="text-blue-500 mt-4 inline-block">
+                Read more
+              </a>
+            </div>
+              {/* Blog Post Item 2 */}
+              <div
+              id="article2"
+              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            >
+              <h3 className="text-xl font-semibold">
+                Cybersecurity Best Practices for 2024
+              </h3>
+              <p className="mt-2 text-gray-600">
+                Learn about the most effective security measures to protect your websites
+                and applications.
+              </p>
+              <a href="#article2" className="text-blue-500 mt-4 inline-block">
+                Read more
+              </a>
+            </div>
+              {/* Blog Post Item 2 */}
+              <div
+              id="article2"
+              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            >
+              <h3 className="text-xl font-semibold">
+                Cybersecurity Best Practices for 2024
+              </h3>
+              <p className="mt-2 text-gray-600">
+                Learn about the most effective security measures to protect your websites
+                and applications.
+              </p>
+              <a href="#article2" className="text-blue-500 mt-4 inline-block">
+                Read more
+              </a>
+            </div>
+              {/* Blog Post Item 2 */}
+              <div
+              id="article2"
+              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            >
+              <h3 className="text-xl font-semibold">
+                Cybersecurity Best Practices for 2024
+              </h3>
+              <p className="mt-2 text-gray-600">
+                Learn about the most effective security measures to protect your websites
+                and applications.
+              </p>
+              <a href="#article2" className="text-blue-500 mt-4 inline-block">
+                Read more
+              </a>
+            </div>
+              {/* Blog Post Item 2 */}
+              <div
+              id="article2"
+              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            >
+              <h3 className="text-xl font-semibold">
+                Cybersecurity Best Practices for 2024
+              </h3>
+              <p className="mt-2 text-gray-600">
+                Learn about the most effective security measures to protect your websites
+                and applications.
+              </p>
+              <a href="#article2" className="text-blue-500 mt-4 inline-block">
+                Read more
+              </a>
+            </div>
+              {/* Blog Post Item 2 */}
+              <div
+              id="article2"
+              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            >
+              <h3 className="text-xl font-semibold">
+                Cybersecurity Best Practices for 2024
+              </h3>
+              <p className="mt-2 text-gray-600">
+                Learn about the most effective security measures to protect your websites
+                and applications.
+              </p>
+              <a href="#article2" className="text-blue-500 mt-4 inline-block">
+                Read more
+              </a>
+            </div>
+              {/* Blog Post Item 2 */}
+              <div
               id="article2"
               className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
             >
@@ -93,7 +189,7 @@ const Blog = () => {
       </section>
 
       {/* Footer Section */}
-      <Footer />
+      {/* <Footer /> */}
       {/* <AudioPlayer /> */}
     </div>
   );

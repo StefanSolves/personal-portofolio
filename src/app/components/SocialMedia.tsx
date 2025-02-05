@@ -86,7 +86,7 @@ const SocialMedia = () => {
       </section>
 
       {/* Footer Section */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

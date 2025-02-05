@@ -38,20 +38,45 @@ export default function Header() {
         </nav>
 
         {/* Social Media Icons */}
-        <div className="flex space-x-4">
-          <a href="https://www.instagram.com/stefan.solves/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <FaInstagram size={24} className="hover:text-gray-400" />
-          </a>
-          <a href="https://www.linkedin.com/in/stefan-c-791b8a17b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <FaLinkedin size={24} className="hover:text-gray-400" />
-          </a>
-          <a href="https://www.tiktok.com/@stefan.solves" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
-            <FaTiktok size={24} className="hover:text-gray-400" />
-          </a>
-          <a href="https://github.com/StefanCDev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-          <FaGithub size={24} className="hover:text-gray-400" />
-          </a>
-        </div>
+        {/* Social Media Icons */}
+<div className="flex space-x-4">
+  <a
+    href="https://www.instagram.com/stefan.solves/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+    className="transition-all duration-300 transform hover:scale-150 hover:opacity-80"
+  >
+    <FaInstagram size={24} />
+  </a>
+  <a
+    href="https://www.linkedin.com/in/stefan-c-791b8a17b/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+    className="transition-all duration-300 transform hover:scale-150 hover:opacity-80"
+  >
+    <FaLinkedin size={24} />
+  </a>
+  <a
+    href="https://www.tiktok.com/@stefan.solves"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="TikTok"
+    className="transition-all duration-300 transform hover:scale-150 hover:opacity-80"
+  >
+    <FaTiktok size={24} />
+  </a>
+  <a
+    href="https://github.com/StefanCDev"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="GitHub"
+    className="transition-all duration-300 transform hover:scale-150 hover:opacity-80"
+  >
+    <FaGithub size={24} />
+  </a>
+</div>
       </div>
     </header>
   );

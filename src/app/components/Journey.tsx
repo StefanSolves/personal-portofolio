@@ -40,23 +40,32 @@ const journeyData = [
 const Journey = () => {
   return (
     <div className="min-h-screen flex flex-col bg-white">
-      <section id="journey" className="w-full py-16 text-black pt-32">
+      <section id="journey" className="w-full py-24 text-black">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center mb-12">Milestones of Growth & Achievement</h2>
-          <div className="space-y-12">
-            {journeyData.map((item, index) => (
-              <div key={index} className={`flex ${index % 2 === 0 ? "justify-start" : "justify-end"}`}>
-                <div className="w-full max-w-lg bg-white p-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105">
-                  <h3 className="text-xl font-semibold mb-2">{item.week}</h3>
-                  <h4 className="text-lg font-medium mb-3">{item.title}</h4>
-                  <p className="text-gray-600">{item.description}</p>
+          <h2 className="text-3xl font-semibold text-center mb-12">Client Project Timeline</h2>
+          <div className="relative">
+            {/* Vertical line */}
+            <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-300"></div>
+            <div className="space-y-24">
+              {journeyData.map((item, index) => (
+                <div key={index} className={`flex ${index % 2 === 0 ? "justify-start" : "justify-end"}`}>
+                  <div className="w-5/12 bg-white p-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 relative">
+                    {/* Circle on the line */}
+                    <div
+                      className="absolute top-1/2 w-4 h-4 bg-[#003B49]  rounded-full"
+                      style={{ [index % 2 === 0 ? "right" : "left"]: "-34px" }}
+                    ></div>
+                    <h3 className="text-xl font-semibold mb-2">{item.week}</h3>
+                    <h4 className="text-lg font-medium mb-3">{item.title}</h4>
+                    <p className="text-gray-600">{item.description}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

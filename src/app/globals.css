@@ -1,6 +1,6 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -16,7 +16,7 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  /* background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
@@ -35,6 +35,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    height: 100%;
+    /* overflow: hidden; */
+    width: 100%;
+    min-width: 100vh;
   }
   
   a {
@@ -53,6 +57,8 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
+    margin-bottom: 0;
+    margin-top: 0;
   }
   
   

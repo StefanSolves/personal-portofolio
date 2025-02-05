@@ -4,9 +4,9 @@ import Footer from "./Footer";
 const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <section id="contact" className="w-full bg-gray-100 py-16">
+      <section id="contact" className="w-full bg-white py-24">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-semibold mb-6">Contact Me</h2>
+          <h2 className="text-3xl font-semibold mb-6 text-black">Contact Me</h2>
           <p className="text-lg text-gray-700 mb-8">
             I'd love to hear from you! Fill out the form below, and I'll get back to you as soon as possible.
           </p>
@@ -62,7 +62,7 @@ const Contact = () => {
           </form>
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
