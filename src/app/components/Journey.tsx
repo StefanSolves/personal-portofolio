@@ -6,12 +6,12 @@ const journeyData = [
     title: "GDG (Google Developers Group) Organizer",
     description: "Joined the GDG community as an organizer, fostering knowledge-sharing and networking among tech enthusiasts. Spearheaded meetups, workshops, and events, connecting developers with industry leaders to advance learning and innovation. with client. Present project timeline and clarify scope.",
   },
-  {
-    week: "January 2024: Software Engineer Role",
-    title: "Software Engineer – 01 Founders",
-    description:
-      "Stepped into a full-time Software Engineer role, actively developing applications, optimizing systems, and contributing to innovative tech solutions. Engaged in DevOps, cloud computing, and security practices to enhance software scalability and performance..",
-  },
+  // {
+  //   week: "January 2024: Software Engineer Role",
+  //   title: "Software Engineer – 01 Founders",
+  //   description:
+  //     "Stepped into a full-time Software Engineer role, actively developing applications, optimizing systems, and contributing to innovative tech solutions. Engaged in DevOps, cloud computing, and security practices to enhance software scalability and performance..",
+  // },
   {
     week: "October 2023: Recognized Achievement",
     title: "Award-Winning Software Engineer Learner",
@@ -19,9 +19,9 @@ const journeyData = [
       "Received recognition for outstanding performance and contributions in software engineering. Demonstrated excellence in problem-solving, technical skills, and innovation, further solidifying expertise in the field.",
   },
   {
-    week: "June 2023: First Industry Role",
-    title: "Coding Assistant – 01 Founders",
-    description: "Transitioned into a leadership role, mentoring aspiring developers while refining technical expertise. Provided guidance on software development, DevOps practices, and debugging strategies. Assisted in managing coding environments, fostering collaboration, and enhancing the learning experience for students.",
+    week: "June 2023: Software Engineering Role",
+    title: "Software Engineer – 01 Founders",
+    description: "Stepped into a full-time Software Engineer role, actively developing applications, optimizing systems, and contributing to innovative tech solutions. Engaged in DevOps, cloud computing, and security practices to enhance software scalability and performance..",
   },
   {
     week: "2022: Entry into Tech",
@@ -29,12 +29,7 @@ const journeyData = [
     description:
       "Embarked on a rigorous software engineering program at 01 Founders, mastering full-stack development, problem-solving, and industry best practices. Worked on real-world projects, building a strong foundation in coding, DevOps, and cybersecurity.",
   },
-  {
-    week: "2022: Entry into Tech",
-    title: "Software Engineer Learner – 01 Founders",
-    description:
-      "Embarked on a rigorous software engineering program at 01 Founders, mastering full-stack development, problem-solving, and industry best practices. Worked on real-world projects, building a strong foundation in coding, DevOps, and cybersecurity.",
-  },
+  
 ]
 
 const Journey = () => {
