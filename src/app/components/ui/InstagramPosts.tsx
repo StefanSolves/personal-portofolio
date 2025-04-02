@@ -42,7 +42,6 @@ const InstagramPost: React.FC<InstagramPostProps> = ({ url }) => {
           maxWidth: "540px",
           minWidth: "326px",
           padding: "0",
-          width: "99.375%",
           width: "calc(100% - 2px)",
         }}
       >
@@ -270,4 +269,3 @@ const InstagramPosts: React.FC = () => {
 }
 
 export default InstagramPosts
-
