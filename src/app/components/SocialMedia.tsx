@@ -1,5 +1,4 @@
-import { FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
-import Footer from './Footer'
+
 import InstagramPosts  from "./ui/InstagramPosts";
 
 const SocialMedia = () => {
@@ -16,9 +15,9 @@ const SocialMedia = () => {
       </header> */}
 
       {/* About Section */}
-      <section className="w-full py-16 bg-gray-50 mt-0">
+      <section className="w-full py-36 bg-gray-50 mt-0">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl font-semibold mb-6">About This Page</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-black">About This Page</h3>
           <p className="text-lg text-gray-700 mb-8">
             This page serves as a hub for all of my social media channels. Here, you can find links to my Instagram, TikTok, and YouTube profiles, where I share my latest projects, thoughts, and updates. Stay connected and follow me to stay informed!
           </p>

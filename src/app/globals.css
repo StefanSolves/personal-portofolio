@@ -172,9 +172,6 @@ body {
   background-color: #444;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 .instagram-gradient-text {
   background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);

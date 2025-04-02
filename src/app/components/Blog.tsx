@@ -1,6 +1,3 @@
-import Footer from "./Footer"; // Import the Footer component
-// import AudioPlayer from "./AudioPlayer";
-
 const Blog = () => {
   return (
     <div className="min-h-screen flex flex-col">
@@ -49,88 +46,9 @@ const Blog = () => {
                 Read more
               </a>
             </div>
-              {/* Blog Post Item 2 */}
-              <div
-              id="article2"
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
-            >
-              <h3 className="text-xl font-semibold">
-                Cybersecurity Best Practices for 2024
-              </h3>
-              <p className="mt-2 text-gray-600">
-                Learn about the most effective security measures to protect your websites
-                and applications.
-              </p>
-              <a href="#article2" className="text-blue-500 mt-4 inline-block">
-                Read more
-              </a>
-            </div>
-              {/* Blog Post Item 2 */}
-              <div
-              id="article2"
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
-            >
-              <h3 className="text-xl font-semibold">
-                Cybersecurity Best Practices for 2024
-              </h3>
-              <p className="mt-2 text-gray-600">
-                Learn about the most effective security measures to protect your websites
-                and applications.
-              </p>
-              <a href="#article2" className="text-blue-500 mt-4 inline-block">
-                Read more
-              </a>
-            </div>
-              {/* Blog Post Item 2 */}
-              <div
-              id="article2"
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
-            >
-              <h3 className="text-xl font-semibold">
-                Cybersecurity Best Practices for 2024
-              </h3>
-              <p className="mt-2 text-gray-600">
-                Learn about the most effective security measures to protect your websites
-                and applications.
-              </p>
-              <a href="#article2" className="text-blue-500 mt-4 inline-block">
-                Read more
-              </a>
-            </div>
-              {/* Blog Post Item 2 */}
-              <div
-              id="article2"
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
-            >
-              <h3 className="text-xl font-semibold">
-                Cybersecurity Best Practices for 2024
-              </h3>
-              <p className="mt-2 text-gray-600">
-                Learn about the most effective security measures to protect your websites
-                and applications.
-              </p>
-              <a href="#article2" className="text-blue-500 mt-4 inline-block">
-                Read more
-              </a>
-            </div>
-              {/* Blog Post Item 2 */}
-              <div
-              id="article2"
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
-            >
-              <h3 className="text-xl font-semibold">
-                Cybersecurity Best Practices for 2024
-              </h3>
-              <p className="mt-2 text-gray-600">
-                Learn about the most effective security measures to protect your websites
-                and applications.
-              </p>
-              <a href="#article2" className="text-blue-500 mt-4 inline-block">
-                Read more
-              </a>
-            </div>
-              {/* Blog Post Item 2 */}
-              <div
+
+            {/* Repeat Blog Post Item (just example with same content) */}
+            <div
               id="article2"
               className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
             >
@@ -146,7 +64,7 @@ const Blog = () => {
               </a>
             </div>
 
-            {/* Blog Post Item 3 */}
+            {/* Additional Blog Post Items... */}
             <div
               id="article3"
               className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"

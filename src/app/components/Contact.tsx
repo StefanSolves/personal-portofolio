@@ -1,6 +1,3 @@
-import Footer from "./Footer";
-
-
 const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col">
@@ -8,7 +5,7 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-semibold mb-6 text-black">Contact Me</h2>
           <p className="text-lg text-gray-700 mb-8">
-            I'd love to hear from you! Fill out the form below, and I'll get back to you as soon as possible.
+            I&apos;d love to hear from you! Fill out the form below, and I&apos;ll get back to you as soon as possible.
           </p>
 
           <form className="bg-white shadow-lg rounded-lg p-8 max-w-2xl mx-auto">
@@ -62,7 +59,6 @@ const Contact = () => {
           </form>
         </div>
       </section>
-      {/* <Footer /> */}
     </div>
   );
 };

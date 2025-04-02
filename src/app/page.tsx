@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import AudioPlayer from "./components/ui/AudioPlayer";
 // src/app/page.tsx
 // import { Globe } from "./ui/Globe"; 
@@ -58,6 +57,8 @@ export default function Home() {
 
       {/* Footer Component */}
       {/* <Footer /> */}
+      <AudioPlayer />
+      
     </div>
   );
 }
