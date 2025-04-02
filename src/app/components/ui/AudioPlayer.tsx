@@ -1,32 +1,41 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const AudioPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [audio] = useState(() => new Audio("/music/music.mp3")); // Updated path
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    audio.loop = true; // Enable looping
+    // Initialize audio only on client side
+    audioRef.current = new Audio("/music/music.mp3");
+    audioRef.current.loop = true;
+
     return () => {
-      audio.pause();
-      audio.currentTime = 0;
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+      }
     };
-  }, [audio]);
+  }, []);
 
   const handlePlayPause = () => {
+    if (!audioRef.current) return;
+    
     if (isPlaying) {
-      audio.pause();
+      audioRef.current.pause();
     } else {
-      audio.play();
+      audioRef.current.play();
     }
     setIsPlaying(!isPlaying);
   };
 
   const handleStop = () => {
-    audio.pause();
+    if (!audioRef.current) return;
+    
+    audioRef.current.pause();
     setIsPlaying(false);
-    audio.currentTime = 0; // Reset to the beginning
+    audioRef.current.currentTime = 0;
   };
 
   return (
