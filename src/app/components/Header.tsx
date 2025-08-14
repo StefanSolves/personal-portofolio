@@ -50,7 +50,7 @@ export default function Header() {
     <FaInstagram size={24} />
   </a>
   <a
-    href="https://www.linkedin.com/in/stefan-c-791b8a17b/"
+    href="https://www.linkedin.com/in/stefansolves/"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="LinkedIn"
@@ -68,7 +68,7 @@ export default function Header() {
     <FaTiktok size={24} />
   </a>
   <a
-    href="https://github.com/StefanCDev"
+    href="https://github.com/StefanSolves"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="GitHub"
